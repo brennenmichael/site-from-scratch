@@ -99,11 +99,12 @@ p {
     background-color: #3882f6;
     padding: 10px 30px;
     border-radius: 12px;
-    line-height: 3;
+    display:inline-block;
+    text-align: center;
 }
 
 .btn:hover {
-    transform: scale(0.98);
+    transform: scale(0.95);
 }
 
 /* Info styling */
@@ -118,6 +119,7 @@ p {
     color: var(--primary-dark);
     background: var(--primary-light);
     text-align: center;
+    margin-top: 10px;
     font-size: 24px;
     font-weight: 800px;
     overflow: auto;
